@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeQuadraApps - Excelência em Soluções Digitais</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo">DeQuadra<span>Apps</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#home-produtos">Produtos</a></li>
+                    <li class="nav-button"><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <div class="container hero-content">
+                <h1 class="reveal">Soluções Digitais que Impulsionam o Futuro</h1>
+                <p class="reveal" style="transition-delay: 200ms;">Desenvolvimento de aplicativos inovadores com foco em design elegante e performance excepcional.</p>
+                <a href="#contato" class="cta-button reveal" style="transition-delay: 400ms;">Fale Conosco</a>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <h2>Nossa Paixão é Transformar Ideias em Realidade Digital.</h2>
+                        <p class="section-subtitle">Combinamos criatividade, tecnologia e estratégia para entregar soluções que superam expectativas.</p>
+                        <p>Na DeQuadraApps, acreditamos que cada projeto é uma oportunidade de inovar e criar valor. Nossa equipe multidisciplinar trabalha em sinergia para entender suas necessidades e oferecer aplicativos personalizados, com design intuitivo e funcionalidades poderosas. Nosso compromisso é com a excelência em cada etapa do processo, desde a concepção até o lançamento e suporte contínuo.</p>
+                    </div>
+                    <div class="about-image reveal" style="transition-delay: 200ms;">
+                        <img src="./assets/imagem_sobre.png" alt="Equipe trabalhando em dispositivos">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="home-produtos">
+            <div class="container">
+                <h2 class="reveal">Conheça Nossos Produtos</h2>
+                <p class="section-subtitle reveal">Aplicativos criados com paixão e tecnologia para resolver problemas reais.</p>
+                <div class="features-grid">
+                    <div class="feature-card reveal">
+                        <div class="icon"><img src="./assets/QuadraVendasIcon.jpeg" alt="Ícone App 1" class="app-icon-preview"></div>
+                        <h3>Quadra Vendas</h3>
+                        <p>Realize suas vendas com facilidade, a qualquer hora e em qualquer lugar.</p>
+                        <a href="./pages/produto-app1.html" class="card-link">Ver Detalhes &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="statement">
+            <div class="container">
+                <h2 class="reveal">Nós não seguimos tendências. <br><span>Nós as definimos.</span></h2>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2 class="reveal">Vamos Dar Vida ao Seu Projeto</h2>
+                <p class="section-subtitle reveal">Compartilhe sua visão e descubra como podemos ajudá-lo a alcançar seus objetivos.</p>
+                <div class="contact-form reveal">
+                    <form id="contact-form" action="https://formspree.io/f/mzzvedgq" method="POST">
+                        <div class="form-group">
+                            <label for="name">Seu Nome</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Seu E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Descreva seu projeto</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Enviar Mensagem</button>
+                        <p id="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/vitor_quadra__/" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <p class="copyright">&copy; 2025 DeQuadraApps. Inovação em cada linha de código.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
